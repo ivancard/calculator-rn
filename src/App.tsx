@@ -11,12 +11,13 @@ import {
   View,
 } from 'react-native';
 import { CalculatorScreen } from './Presentation/Screens/CalculatorScreen';
+import { styles } from './Config/Theme/app-theme';
 
 function App() {
 
 
   return (
-    <View>
+    <View style={styles.background}>
       <StatusBar
         barStyle={'light-content'}
         backgroundColor={'black'}
